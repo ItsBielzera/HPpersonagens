@@ -39,15 +39,15 @@
   .card .card__info {
     display: flex;
     flex-direction: row;
+    gap: 20px;
     text-align: center;
     align-items: center;
-    margin: 10px;
   }
 
 
   .card .card__descrição {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin-top: 40px;
     align-items: center;
 
@@ -80,13 +80,13 @@
     text-align: center;
     align-items: center;
     padding: 20px;
-    gap: 50px;
+    gap: 90px;
     background-color: black;
 }
 
 .menu__footer .lista__footer {
   list-style: none;
-  gap: 50px;
+  gap: 110px;
   display: flex;
   align-content: center;
   color: white;
