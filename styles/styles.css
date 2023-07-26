@@ -80,13 +80,13 @@
     text-align: center;
     align-items: center;
     padding: 20px;
-    gap: 90px;
+    gap: 50px;
     background-color: black;
 }
 
 .menu__footer .lista__footer {
   list-style: none;
-  gap: 110px;
+  gap: 50px;
   display: flex;
   align-content: center;
   color: white;
