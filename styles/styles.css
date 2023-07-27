@@ -2,6 +2,7 @@
   .content {
     background-color: black;
     padding: 84px;
+    font-family: "wizar world";
   }
 
   .titulo__personagens {
@@ -10,7 +11,7 @@
     margin-bottom: 40px;
     margin-top: 10px;
     color: white;
-  }
+    }
 
   .menu {
     display: flex;
@@ -29,14 +30,16 @@
     color: white;
   }
 
-  .card {
+  .card-personagem {
     padding: 20px;
     margin: 50px;
     text-align: center;
     border: 100px;
+    background-color: rgb(82, 88, 95);
+    color: white;
   }
 
-  .card .card__info {
+  .card-personagem .card__info {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -45,7 +48,7 @@
   }
 
 
-  .card .card__descrição {
+  .card-personagem .card__descrição {
     font-size: 20px;
     text-align: left;
     margin-top: 40px;
@@ -53,7 +56,7 @@
 
   }
 
-  .card .card__image {
+  .card-personagem .card__image {
     border-radius: 100%;
     min-width: 321px;
     width: 321px;
@@ -61,7 +64,7 @@
     object-fit: cover;
   }
 
-  .card__image.card__image--rigth {
+  .card__image.card__image--right {
     margin-right: -90px;
   }
 
